@@ -31,7 +31,7 @@ let package = Package(
     ],
     dependencies: [
         // for Complex type
-        .package(url: "https://github.com/apple/swift-numerics", from: "1.0.0")
+        .package(url: "https://github.com/ptliddle/swift-numerics", branch: "1.0.2-_fix")
     ],
     targets: [
         // plugin to help build the metal shaders
